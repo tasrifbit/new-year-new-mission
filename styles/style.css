@@ -1,8 +1,6 @@
-body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Merriweather Sans', sans-serif;
-}
-
+body{
+font-family: 'Inter Tight', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;}
 .clr {
     color: #F00;
 }
@@ -174,7 +172,7 @@ body {
     justify-content: space-between;
     background-position: center;
     /* filte: brightness(70%); */
-    height: 600px;
+    height: 400px;
     margin: 0 150px;
     margin-top: 100px;
     background-repeat: no-repeat;
@@ -204,4 +202,57 @@ body {
     border: none;
 
 
+}
+
+.offer {
+    display: flex;
+
+}
+
+.offer-container h4 {
+    color: #F00;
+    padding: 0;
+    margin-bottom: -40px;
+    margin-left: 5px;
+}
+
+.offer-container {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin: 0 150px;
+    margin-top: 50px;
+}
+
+.img-border {
+    margin-right: 135px;
+    border-radius: 463px;
+    border: 10px solid #F00;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.offer-second {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin: 0 150px;
+
+
+}
+
+.offer-second  h2{
+    margin-bottom: -10px;
+}
+.offer-container h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: -15px;
 }
