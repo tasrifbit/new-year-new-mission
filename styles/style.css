@@ -206,6 +206,10 @@ font-family: 'Merriweather Sans', sans-serif;}
 
 .offer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+
 
 }
 
@@ -217,21 +221,23 @@ font-family: 'Merriweather Sans', sans-serif;}
 }
 
 .offer-container {
+    display: block;
     font-family: Inter;
     font-size: 15px;
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 100px;
     margin: 0 150px;
     margin-top: 50px;
 }
 
 .img-design {
-    margin-right: 135px;
+    align-items: center;
+    margin-right: 60px;
     border-radius: 463px;
     border: 10px solid #F00;
-    padding: 30px;
-    width: 250px;
-    height: 250px;
+    padding: 10px;
+    width: 280px;
+    height: 280px;
 
 }
 
@@ -239,7 +245,6 @@ font-family: 'Merriweather Sans', sans-serif;}
     font-family: Inter;
     font-size: 15px;
     font-weight: 500;
-    margin-left: 10px;
     margin: 0 150px;
 
 
@@ -256,3 +261,44 @@ font-family: 'Merriweather Sans', sans-serif;}
     text-transform: capitalize;
     margin-bottom: -15px;
 }
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 600px;
+    max-width: 1440px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.blocks img {
+    width: 385px;
+    height: 285px;
+    border: 2px ;
+    box-shadow: 4px 7px 7px 0 #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+    border-radius: 10px;
+
+
+}
+.offer-container h5 {
+    margin-top: 50px;
+    margin-bottom: -40px;
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+
+.blocks img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+
+}
+
